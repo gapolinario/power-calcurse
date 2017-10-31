@@ -23,6 +23,11 @@ But this is going to send sensible information through an email client
 we do not know, hence it is better to send messages using
 a Python API, such as [Python Telegram Bot][python].
 
+## Add Weekly Tasks
+
+With `bash addWeeklyTasks.sh`, all tasks written
+in the `weekly` file are added to the appointments file, `apts`.
+
 ## State of things
 
 I was fiddling with the first task, in addWeeklyTasks.sh file
