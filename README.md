@@ -12,26 +12,34 @@ I added this as a system alias no my `~/.bash_aliases` file to quickly open calc
 
 All animals came from the [San Diego Zoo][zoo] list.
 
-Notifications can sent to a [notifica][notifica] e-mail address.
-Add the following line to your ~/.bashrc file:
-
-    export notifica="[your token]@notify.moosa.it"
-
-Where `[your token]` is provided by the Notifica app.
-
-But this is going to send sensible information through an email client
-we do not know, hence it is better to send messages using
-a Python API, such as [Python Telegram Bot][python].
+All messages and notifications are sent through the [power-calcurse-bot][bot],
+made with the help of [Python Telegram Bot][python].
 
 ## Add Weekly Tasks
 
 With `bash addWeeklyTasks.sh`, all tasks written
 in the `weekly` file are added to the appointments file, `apts`.
 
+## Remove Weekly Tasks For a Period
+
+Started
+
+## Add Monthly Tasks
+
+Not done
+
+## Add Yearly Special Dates
+
+Not done
+
+## Add Task From Telegram
+
+Not done
+This supposes the Bot is awake and running on a distant server
+
 ## State of things
 
-I was fiddling with the first task, in addWeeklyTasks.sh file
+Now fiddling with the rmWeeklyTasks functionality
 
 [zoo]: http://animals.sandiegozoo.org/animals
-[notifica]: http://www.moosa.it/notifica.php
-[python]: https://python-telegram-bot.org/
+[bot]: http://t.me/power_calcurse_bot
