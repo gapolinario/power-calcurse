@@ -20,6 +20,10 @@ made with the help of [Python Telegram Bot][python].
 With `bash addWeeklyTasks.sh`, all tasks written
 in the `weekly` file are added to the appointments file, `apts`.
 
+Call it with a start and end date, for instance:
+
+    bash addWeeklyTasks.sh 2017-11-08 2017-12-12
+
 ## Remove Weekly Tasks For a Period
 
 Started
