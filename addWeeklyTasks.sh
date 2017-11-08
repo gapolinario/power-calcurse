@@ -1,7 +1,7 @@
 #!/bin/bash
 
-input="weekly"
-output="apts"
+input="/home/gabriel/Dropbox/Calendar/2017/weekly.md"
+output="/home/gabriel/Dropbox/Calendar/2017/apts"
 
 for i in `seq 1 21`
 do
