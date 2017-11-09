@@ -1,7 +1,12 @@
 #!/bin/bash
 
-input="/home/gabriel/Dropbox/Calendar/2017/weekly.md"
-output="/home/gabriel/Dropbox/Calendar/2017/apts"
+folder=$(less folders)
+
+# for tests
+#folder="."
+
+input="$folder/weekly.md"
+output="$folder/apts"
 
 startdate="$1"
 enddate="$2"
