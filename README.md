@@ -15,6 +15,13 @@ All animals came from the [San Diego Zoo][zoo] list.
 All messages and notifications are sent through the [power-calcurse-bot][bot],
 made with the help of [Python Telegram Bot][python].
 
+## The folder file
+
+Go to the folder where your calendar files are stored and copy the
+content of `pwd` to a file called folder, on the power-calcurse
+folder. This has to be done on every computer power-calcurse will
+run.
+
 ## Edit Tasks of Today
 
 Added the following line to my `~/.bashrc` file:
