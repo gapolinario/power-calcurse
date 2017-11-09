@@ -15,6 +15,17 @@ All animals came from the [San Diego Zoo][zoo] list.
 All messages and notifications are sent through the [power-calcurse-bot][bot],
 made with the help of [Python Telegram Bot][python].
 
+## Edit Tasks of Today
+
+Added the following line to my `~/.bashrc` file:
+
+    alias today="vim apts +$(grep -n $(date +%m/%d/%Y) apts | head -n1 | awk -F ":" '{print $1}')"
+
+From the calendar folder, I can run `today` and it takes me directly to
+the scheduled appointments for today.
+
+If there is no appointment for the day, I don't know what this does.
+
 ## Add Weekly Tasks
 
 With `bash addWeeklyTasks.sh`, all tasks written
@@ -36,10 +47,16 @@ Not done
 
 Not done
 
+## Display Tasks of Today/Week at Telegram
+
+Pretty printed, please
+
 ## Add Task From Telegram
 
 Not done
 This supposes the Bot is awake and running on a distant server
+
+## Remove Task from Telegram
 
 ## State of things
 
@@ -47,3 +64,4 @@ Now fiddling with the rmWeeklyTasks functionality
 
 [zoo]: http://animals.sandiegozoo.org/animals
 [bot]: http://t.me/power_calcurse_bot
+[python]: https://python-telegram-bot.org/
