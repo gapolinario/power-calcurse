@@ -37,7 +37,17 @@ Call it with a start and end date, for instance:
 
 ## Remove Weekly Tasks For a Period
 
-Started
+Partially implemented
+
+Call it with a start and end date, though the formatting is a little different
+from AddWeeklyTasks
+
+    bash rmWeeklyTasks.sh 11/09/2017 11/13/2017
+    
+This scans the whole list, maybe it is not the optimal way of
+doing this task.
+
+It also does not change the original file, so far, this only prints to the command line.
 
 ## Add Monthly Tasks
 
