@@ -56,6 +56,8 @@ doing this task.
 
 It also does not change the original file, so far, this only prints to the command line.
 
+There is a problem here, the program does not print tasks manually inserted
+
 ## Add Monthly Tasks
 
 Not done

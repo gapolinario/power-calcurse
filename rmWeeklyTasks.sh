@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # for tests
-#folder="."
+folder="."
 
-folder=$(less folders)
+#folder=$(less folders)
 
 input="$folder/apts"
 
@@ -17,4 +17,4 @@ enddate="$2"
 # or with:
 # gawk '!/\|\*/' apts
 
-gawk -v sd=$1 -v ed=$2 '/\|\*/ { if ( $1 < sd || $1 > ed ) print $0 }' apts > $input
+gawk -v sd=$1 -v ed=$2 '/\|\*/ { if ( $1 < sd || $1 > ed ) print $0  }' $input
